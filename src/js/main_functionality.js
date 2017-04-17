@@ -1,5 +1,5 @@
-//Instances
 
+//Instances
 var textSectionWidth = "";
 var paraToChangeWidth = "";
 var expanded = false;
@@ -12,6 +12,7 @@ var bsPropOb = {
     spread: "0",
     color: "rgba(0, 0, 0, 0)"
 };//End of object
+
 //Text shadow object
 var tsPropOb = {
     hshadow: "0",
@@ -19,6 +20,7 @@ var tsPropOb = {
     blurRad: "0",
     color: "rgba(0, 0, 0, 0)"
 };//End of object
+
 //Border radius object
 var borderRadiusObject = {
     borderLeftRadius: 0,
@@ -43,6 +45,7 @@ $("#customColor").spectrum({
     showButtons: false,
     showPalette: true
 });
+
 //Create color picker for color of the text itself
 $("#customBColor").spectrum({
     color: "rgba(0,0,0,0)",
@@ -50,6 +53,7 @@ $("#customBColor").spectrum({
     showButtons: false,
     showPalette: true
 });
+
 //Create color picker for box-shadow properties
 $("#custom").spectrum({
     color: "transparent",
@@ -57,6 +61,7 @@ $("#custom").spectrum({
     showButtons: false,
     showPalette: true
 });
+
 //Create color picker for text-shadow properties
 $("#tsColor").spectrum({
     color: "transparent",
@@ -64,6 +69,7 @@ $("#tsColor").spectrum({
     showButtons: false,
     showPalette: true
 });
+
 //Create color picker for border properties
 $("#clrzleftBord, #clrzrightBord, #clrztopBord, #clrzbottomBord, #clrzallBord").spectrum({
     color: "rgb(0,0,0)",
@@ -74,7 +80,6 @@ $("#clrzleftBord, #clrzrightBord, #clrztopBord, #clrzbottomBord, #clrzallBord").
 
 var paraToChange = $("#change-here");
 var textInputField = $(".text_to_change");
-
 
 //Color of the text
 var textColor = "rgb(0,0,0)";
@@ -271,8 +276,6 @@ $("#resetBgColor").on("click", function () {
     });
     $("#css_background_color").html("").prev().html("");
     $("#background_color_paragraph").css("display", "none");
-
-
 });//End of function to reset background color of the text
 //------------End of General Style------------//
 
@@ -479,10 +482,6 @@ function fontVariantFunction() {
         $("#upper").removeAttr("disabled");
         $("#font_variant_paragraph").css("display", "none");
     }
-}
-
-function fontVariant() {
-
 }
 
 $("#smallCaps, #normalFV").on("change", fontVariantFunction);//End of the Font-variant function

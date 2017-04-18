@@ -1010,7 +1010,7 @@ $(".code_prop").on("click", function (e) {
             break;
         case "css_background_color":
             $(span).css("display", "none");
-            input = "<input type='text' id='" + $(this).attr("id") + "input" + "'><i data-val='" + span + "' data-input='" + $(this).attr("id") + "input' class='fa fa-times' id='cross-close'></i>";
+            input = "<input type='text' id='" + $(this).attr("id") + "input" + "'><i data-val='" + span + "' data-input='" + $(this).attr("id") + "input' class='fa fa-times' id='cross-close_" + $(this).attr('id') + "'></i>";
             $(span).parent("p").append(input);
             $(span).parent("p").find("input").spectrum({
                 color: $("#customBColor").spectrum("get").toRgbString(),

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d90d9f2-0917-4735-964d-34789da50e84" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main_functionality.js" afterPath="$PROJECT_DIR$/src/js/main_functionality.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main_functionality_updated.js" afterPath="$PROJECT_DIR$/src/js/main_functionality_updated.js" />
     </list>
     <ignored path="CssHelp_Updated_17th Apr 2017.iws" />
@@ -18,12 +17,34 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/index.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="650">
+                    <caret line="184" column="112" selection-start-line="184" selection-start-column="112" selection-end-line="184" selection-end-column="112" />
+                    <folding>
+                      <element signature="n#section#0;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="CssHelp_Updated_17th Apr 2017" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6309922">
+    <splitter split-orientation="horizontal" split-proportion="0.7462185">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="css_reveal.js" pinned="false" current-in-tab="false">
@@ -62,20 +83,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="393" column="8" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#44#0" expanded="false" />
-                    <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -86,21 +93,45 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/index.html">
+          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="329" column="24" selection-start-line="329" selection-start-column="24" selection-end-line="329" selection-end-column="24" />
-                  <folding />
+                <state relative-caret-position="744">
+                  <caret line="536" column="16" selection-start-line="536" selection-start-column="16" selection-end-line="536" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#44#0" expanded="false" />
+                    <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#color_reset#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#background_color_reset#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#usual#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#moz#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#webkit#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_functionality.js" pinned="false" current-in-tab="false">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main_functionality.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="352">
@@ -149,8 +180,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1923" />
-    <option name="width" value="1228" />
+    <option name="x" value="1925" />
+    <option name="y" value="30" />
+    <option name="width" value="1314" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -181,56 +213,7 @@
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CssHelp_Updated_17th Apr 2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -315,18 +298,18 @@
       <option name="presentableId" value="Default" />
       <updated>1492439988505</updated>
       <workItem from="1492439989655" duration="991000" />
-      <workItem from="1492449259099" duration="13979000" />
+      <workItem from="1492449259099" duration="15944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14970000" />
+    <option name="totallyTimeSpent" value="16935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1923" y="0" width="1228" height="1040" extended-state="0" />
+    <frame x="1925" y="30" width="1314" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24621849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24621849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -357,7 +340,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -398,7 +383,27 @@
           <folding>
             <element signature="e#0#44#0" expanded="false" />
             <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#color_reset#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#background_color_reset#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#usual#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#moz#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#webkit#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,12 +456,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="393" column="8" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="8" />
+        <state relative-caret-position="744">
+          <caret line="536" column="16" selection-start-line="536" selection-start-column="16" selection-end-line="536" selection-end-column="16" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
             <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#color_reset#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#background_color_reset#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#usual#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#moz#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#webkit#0;n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#triggers_object#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

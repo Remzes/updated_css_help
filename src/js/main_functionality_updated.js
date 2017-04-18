@@ -391,7 +391,152 @@ var triggers_object = {
                 top_border_opacity: $("#topBordRangeOpacity")
             }
         },
-        
+        css_editable_mode: {
+            general_style: {
+                width: {
+                    p: $("#width_paragraph"),
+                    span: $("#css_width")
+                },
+                padding: {
+                    p: $("#padding_paragraph"),
+                    span: $("#css_padding")
+                },
+                color: {
+                    p: $("#color_paragraph"),
+                    span: $("#css_color")
+                },
+                b_color: {
+                    p: $("#background_color_paragraph"),
+                    span: $("#css_background_color")
+                }
+            },
+            text_format: {
+                letter_spacing: {
+                    p: $("#letter_spacing_paragraph"),
+                    span: $("#css_letter_spacing")
+                },
+                line_height: {
+                    p: $("#line_height_paragraph"),
+                    span: $("#css_line_height")
+                },
+                text_align: {
+                    p: $("#text_align_paragraph"),
+                    span: $("#css_text_align")
+                },
+                text_decoration: {
+                    p: $("#text_decoration_paragraph"),
+                    span: $("#css_text_decoration")
+                },
+                word_spacing: {
+                    p: $("#word_spacing_paragraph"),
+                    span: $("#css_word_spacing")
+                }
+            },
+            font_format: {
+                font_size: {
+                    p: $("#font_size_paragraph"),
+                    span: $("#css_font_size")
+                },
+                font_style: {
+                    p: $("#font_style_paragraph"),
+                    span: $("#css_font_style")
+                },
+                font_weight: {
+                    p: $("#font_weight_paragraph"),
+                    span: $("#css_font_weight")
+                },
+                font_variant: {
+                    p: $("#font_variant_paragraph"),
+                    span: $("#css_font_variant")
+                }
+            },
+            box_shadow: {
+                usual: {
+                    p: $("#box_shadow_paragraph"),
+                    spans: {
+                        h_shadow: $("#bs_hs"),
+                        v_shadow: $("#bs_vs"),
+                        blur: $("#bs_blur"),
+                        spread: $("#bs_spread"),
+                        color: $("#bs_color")
+                    }
+                },
+                moz: {
+                    p: $("#moz_box_shadow_paragraph"),
+                    spans: {
+                        h_shadow: $("#moz_bs_hs"),
+                        v_shadow: $("#moz_bs_vs"),
+                        blur: $("#moz_bs_blur"),
+                        spread: $("#moz_bs_spread"),
+                        color: $("#moz_bs_color")
+                    }
+                },
+                webkit: {
+                    p: $("#webkit_box_shadow_paragraph"),
+                    spans: {
+                        h_shadow: $("#webkit_bs_hs"),
+                        v_shadow: $("#webkit_bs_vs"),
+                        blur: $("#webkit_bs_blur"),
+                        spread: $("#webkit_bs_spread"),
+                        color: $("#webkit_bs_color")
+                    }
+                }
+            },
+            text_shadow: {
+                p: $("#text_shadow_paragraph"),
+                spans: {
+                    h_shadow: $("#ts_hs"),
+                    v_shadow: $("#ts_vs"),
+                    blur: $("#ts_blur"),
+                    color: $("#ts_color")
+                }
+            },
+            border: {
+                all_border: {
+                    p: $("#border_paragraph"),
+                    spans: {
+                        size: $("border_size_span"),
+                        type: $("#border_type_span"),
+                        color: $("#border_color_span")
+                    }
+                },
+                left_border: {
+                    p: $("#border-left_paragraph"),
+                    spans: {
+                        size: $("#border-left_size_span"),
+                        type: $("#border-left_type_span"),
+                        color: $("#border-left_color_span")
+                    }
+                },
+                right_border: {
+                    p: $("#border-right_paragraph"),
+                    spans: {
+                        size: $("#border-right_size_span"),
+                        type: $("#border-right_type_span"),
+                        color: $("#border-right_color_span")
+                    }
+                },
+                top_border: {
+                    p: $("#border-top_paragraph"),
+                    spans: {
+                        size: $("#border-top_size_span"),
+                        type: $("#border-top_type_span"),
+                        color: $("#border-top_color_span")
+                    }
+                },
+                bottom_border: {
+                    p: $("#border-bottom_paragraph"),
+                    spans: {
+                        size: $("#border-bottom_size_span"),
+                        type: $("#border-bottom_type_span"),
+                        color: $("#border-bottom_color_span")
+                    }
+                }
+            },
+            border_radius: {
+                
+            }
+        }
     }
 };
 

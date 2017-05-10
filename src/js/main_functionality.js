@@ -854,7 +854,10 @@ $("#leftBord, #rightBord, #topBord, #bottomBord, #allBord").on("change", functio
                 $("#" + item.val() + "_paragraph").css("display", "inline-block");
                 var property = borderObject[$(item).val()].size + " " + borderObject[$(item).val()].color + " " + borderObject[$(item).val()].type;
                 //$("#" + "css_" + item.val()).html(property + ";").prev().html(item.val() + ": ");
-
+                $("#css_" + item.val()).prev().html(item.val() + ": ");
+                $("#" + item.val() + "_size_span").html(borderObject[$(item).val()].size);
+                $("#" + item.val() + "_type_span").html(borderObject[$(item).val()].type);
+                $("#" + item.val() + "_color_span").html(borderObject[$(item).val()].color);
                 $(paraToChange).css($(item).val(), property);
 
                 break;

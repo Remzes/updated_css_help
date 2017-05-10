@@ -575,7 +575,37 @@ var elements_DOM_and_CSS_object = {
                 }
             },
             border_radius: {
-                
+                no_prefix: {
+                    p: $("#border-radius-paragraph"),
+                    spans: {
+                        left: $("#left-radius"),
+                        right: $("#right-radius"),
+                        top: $("#top-radius"),
+                        bottom: $("#bottom-radius")
+                    }
+                },
+                moz: {
+                    p: $("#webkit-border_radius_paragraph"),
+                    spans: {
+                        left: $("#webkit-left-radius"),
+                        right: $("#webkit-right-radius"),
+                        top: $("#webkit-top-radius"),
+                        bottom: $("#webkit-bottom-radius")
+                    }
+                },
+                webkit: {
+                    p: $("#moz-border_radius_paragraph"),
+                    spans: {
+                        left: $("#moz-left-radius"),
+                        right: $("#moz-right-radius"),
+                        top: $("#moz-top-radius"),
+                        bottom: $("#moz-bottom-radius")
+                    }
+                }
+            },
+            opacity: {
+                p: $("#opacity_paragraph"),
+                span: $("#css_opacity")
             }
         }
     }

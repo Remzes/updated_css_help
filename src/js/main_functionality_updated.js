@@ -432,7 +432,7 @@ var elements_DOM_and_CSS_object = {
                 top_border_opacity: $("#topBordRangeOpacity")
             }
         },
-        css_editable_mode: {
+        css_editable_mode__spans_and_paragraphs: {
             general_style: {
                 width: {
                     p: $("#width_paragraph"),
@@ -492,7 +492,7 @@ var elements_DOM_and_CSS_object = {
                 }
             },
             box_shadow: {
-                usual: {
+                no_prefix: {
                     p: $("#box_shadow_paragraph"),
                     spans: {
                         h_shadow: $("#bs_hs"),

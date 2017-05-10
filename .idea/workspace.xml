@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109e847b-2f7c-4be0-9799-44ae8f152906" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main_functionality_updated.js" afterPath="$PROJECT_DIR$/src/js/main_functionality_updated.js" />
     </list>
     <ignored path="CssHelp_Updated_17th Apr 2017.iws" />
@@ -22,25 +23,32 @@
     <favorites_list name="CssHelp_Updated_17th Apr 2017" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40959665">
+    <splitter split-orientation="horizontal" split-proportion="0.47844228">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.html">
+          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.5384617">
-                  <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="526" column="30" selection-start-line="526" selection-start-column="30" selection-end-line="526" selection-end-column="30" />
+                  <folding>
+                    <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
+          <file leaf-file-name="main_functionality.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8812849">
-                  <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-                  <folding />
+                <state vertical-scroll-proportion="-31.63268">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1492499112000" expanded="true" signature="47141:47147" placeholder="..." />
+                    <marker date="1492499112000" expanded="true" signature="47624:47630" placeholder="..." />
+                    <marker date="1492499112000" expanded="true" signature="48115:48121" placeholder="..." />
+                    <marker date="1492499112000" expanded="true" signature="48457:48463" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -49,10 +57,25 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.5565217">
+                  <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="32" />
+                  <folding>
+                    <element signature="n#style#0;n#p#7;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#8;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2611732">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
                   <folding />
                 </state>
@@ -70,6 +93,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/main_functionality_updated.js" />
       </list>
     </option>
@@ -232,7 +256,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0887199" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0887199" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -255,18 +279,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -275,11 +293,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5565217">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#p#7;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#8;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8812849">
-          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="526" column="30" selection-start-line="526" selection-start-column="30" selection-end-line="526" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.63268">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492499112000" expanded="true" signature="47141:47147" placeholder="..." />
+            <marker date="1492499112000" expanded="true" signature="47624:47630" placeholder="..." />
+            <marker date="1492499112000" expanded="true" signature="48115:48121" placeholder="..." />
+            <marker date="1492499112000" expanded="true" signature="48457:48463" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

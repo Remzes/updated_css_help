@@ -2,7 +2,7 @@
  * Created by USALNVI on 17.04.2017.
  */
 
-var triggers_object = {
+var elements_DOM_and_CSS_object = {
     css_prop_obj: {
         width: "0px",
         padding: "0px",
@@ -48,16 +48,57 @@ var triggers_object = {
     css_DOM_elements_obj: {
         changed_element: $("#change-here"),
         colorpickers: {
-            font_color: $("#customColor"),
-            background_color: $("#customBColor"),
-            box_shadow_color: $("#custom"),
-            text_shadow_color: $("#tsColor"),
-            border_color: {
-                left_border: $("#clrzleftBord"),
-                right_border: $("#clrzrightBord"),
-                top_border: $("#clrztopBord"),
-                bottom_border: $("#clrzbottomBord"),
-                whole_border: $("#clrzallBord")
+            main: {
+                font_color: {
+                    change: $("#customColor"),
+                    reset: $("#resetColor")
+                },
+                background_color: {
+                    change: $("#customBColor"),
+                    reset: $("#resetBColor")
+                },
+                //There is no need to add reset button to this DOM elements
+                box_shadow_color: $("#custom"),
+                text_shadow_color: $("#tsColor"),
+                border_color: {
+                    left_border: $("#clrzleftBord"),
+                    right_border: $("#clrzrightBord"),
+                    top_border: $("#clrztopBord"),
+                    bottom_border: $("#clrzbottomBord"),
+                    whole_border: $("#clrzallBord")
+                }
+            },
+            mode: {
+                font_color: {
+                    change: $("#css_colorinput"),
+                    reset: $("#cross_close_css_color")
+                },
+                background_color: {
+                    change: $("#css_background_colorinput"),
+                    reset: $("#cross_close_css_background_color")
+                },
+                box_shadow_color: {
+                    change: "Add Colorpicker",
+                    reset: "Add reset Button"
+                },
+                text_shadow_color: {
+                    change: "Add Colorpicker",
+                    reset: "Add reset Button"
+                },
+                border_color: {
+                    change: {
+                        left: "Add Colorpicker",
+                        right: "Add Colorpicker",
+                        top: "Add Colorpicker",
+                        bottom: "Add Colorpicker"
+                    },
+                    reset: {
+                        left: "Add reset Button",
+                        right: "Add reset Button",
+                        top: "Add reset Button",
+                        bottom: "Add reset Button"
+                    }
+                }
             }
         },
         triggers: {
@@ -83,14 +124,14 @@ var triggers_object = {
                     mode: "On Blur"
                 }
             },
-            color_reset: {
-                main: $("#resetColor"),
-                mode: $("#cross_close_css_color")
-            },
-            background_color_reset: {
-                main: $("#resetBgColor"),
-                mode: $("#cross_close_css_background_color")
-            },
+            //color_reset: {
+            //    main: $("#resetColor"),
+            //    mode: $("#cross_close_css_color")
+            //},
+            //background_color_reset: {
+            //    main: $("#resetBgColor"),
+            //    mode: $("#cross_close_css_background_color")
+            //},
             letter_spacing: {
                 span: $("#letSpac"),
                 change: {

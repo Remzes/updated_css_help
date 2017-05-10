@@ -618,7 +618,6 @@ $("#bsTSResetBtn").on("click", function (e) {
         blurRad: "0",
         color: "rgba(0, 0, 0, 0)"
     };
-    $("#text_shadow_paragraph").css("display", "none");
     $("#tsPara").css("display", "none");
     $("#tsRange").prop("disabled", true);
     $("#text_shadow_paragraph").css("display", "none");
@@ -662,14 +661,16 @@ $("#boxTSShadowGen").on("click", function (e) {
     paraToChange.css("text-shadow", $(this).val());
     switch (tsPropOb.color != "rgba(0, 0, 0, 0)" && ((tsPropOb.hshadow != 0 && tsPropOb != "0px") || (tsPropOb.vshadow != 0 && tsPropOb.vshadow != "0px") || (tsPropOb.blurRad != 0 && tsPropOb.blurRad != "0px"))) {
         case true:
-            console.log("true");
             $("#tsPara").css("display", "block");
             $("#tsRange").prop("disabled", false);
-            $("#css_text_shadow").html(tsPropOb.vshadow + " " + tsPropOb.hshadow + " " + tsPropOb.blurRad + " " + tsPropOb.color + ";").prev().html("text-shadow: ");
             $("#text_shadow_paragraph").css("display", "inline-block");
+            $("#css_text_shadow").prev().html("text-shadow: ");
+            $("#ts_hs").html(tsPropOb.vshadow);
+            $("#ts_vs").html(tsPropOb.hshadow);
+            $("#ts_blur").html(tsPropOb.blurRad);
+            $("#ts_color").html(tsPropOb.color);
             break;
         case false:
-            console.log("false");
             $("#tsPara").css("display", "none");
             $("#tsRange").prop("disabled", true);
             $("#text_shadow_paragraph").css("display", "none");
@@ -775,6 +776,7 @@ $("#borderLeftRadius, #borderRightRadius, #borderTopRadius, #borderBottomRadius"
 
 //Function to reset all parts of border radius
 $("#reset_parts").on("click", function () {
+
     $("#borderLeftRadius").val(0);
     $("#borderRightRadius").val(0);
     $("#borderTopRadius").val(0);
@@ -799,6 +801,7 @@ $("#reset_parts").on("click", function () {
         borderTopRadius: 0,
         borderBottomRadius: 0
     };//End of object
+
 });//End of function
 
 //Function to open border properties
@@ -898,7 +901,10 @@ $("#clrzleftBord, #clrzrightBord, #clrztopBord, #clrzbottomBord, #clrzallBord").
     var side = $(this).data("side");
     borderObject[side].color = $(this).spectrum("get").toRgbString();
     $(paraToChange).css(side, borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type);
-    $("#" + "css_" + side).html(borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type + ";").prev().html(side + ": ");
+    //$("#" + "css_" + side).html(borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type + ";").prev().html(side + ": ");
+    $("#" + side + "_size_span").html(borderObject[side].size);
+    $("#" + side + "_type_span").html(borderObject[side].type);
+    $("#" + side + "_color_span").html(borderObject[side].color);
 });//End of function to change border color
 
 //Function to change border size
@@ -907,7 +913,10 @@ $("#leftBordRange, #rightBordRange, #topBordRange, #bottomBordRange, #allBordRan
     borderObject[side].size = $(this).val() + "px";
     $("#" + side + "-span").html($(this).val() + "px");
     $(paraToChange).css(side, borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type);
-    $("#" + "css_" + side).html(borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type + ";").prev().html(side + ": ");
+    //$("#" + "css_" + side).html(borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type + ";").prev().html(side + ": ");
+    $("#" + side + "_size_span").html(borderObject[side].size);
+    $("#" + side + "_type_span").html(borderObject[side].type);
+    $("#" + side + "_color_span").html(borderObject[side].color);
 });//End of function to change border size
 
 //Function to change border type
@@ -915,7 +924,10 @@ $("#leftBordStyle, #rightBordStyle, #topBordStyle, #bottomBordStyle, #allBordSty
     var side = $(this).data("side");
     borderObject[side].type = $(this).val();
     $(paraToChange).css(side, borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type);
-    $("#" + "css_" + side).html(borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type + ";").prev().html(side + ": ");
+    //$("#" + "css_" + side).html(borderObject[side].size + " " + borderObject[side].color + " " + borderObject[side].type + ";").prev().html(side + ": ");
+    $("#" + side + "_size_span").html(borderObject[side].size);
+    $("#" + side + "_type_span").html(borderObject[side].type);
+    $("#" + side + "_color_span").html(borderObject[side].color);
 });//End of function to change border type
 //------------End of Border-------------------//
 

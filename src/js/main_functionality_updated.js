@@ -32,18 +32,18 @@ var triggers_object = {
             color: "transparent"
         },
         border_radius: {
-            left: "",
-            right: "",
-            top: "",
-            bottom: ""
+            left: "0",
+            right: "0",
+            top: "0",
+            bottom: "0"
         },
         border: {
-            left: "",
-            right: "",
-            top: "",
-            bottom: ""
+            left: "0",
+            right: "0",
+            top: "0",
+            bottom: "0"
         },
-        opacity: ""
+        opacity: 1
     },
     css_DOM_elements_obj: {
         changed_element: $("#change-here"),

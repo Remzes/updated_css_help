@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109e847b-2f7c-4be0-9799-44ae8f152906" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main_functionality.js" afterPath="$PROJECT_DIR$/src/js/main_functionality.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main_functionality_updated.js" afterPath="$PROJECT_DIR$/src/js/main_functionality_updated.js" />
-    </list>
+    <list default="true" id="109e847b-2f7c-4be0-9799-44ae8f152906" name="Default" comment="" />
     <ignored path="CssHelp_Updated_17th Apr 2017.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +38,8 @@
           <file leaf-file-name="main_functionality.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-18.258572">
-                  <caret line="741" column="18" selection-start-line="741" selection-start-column="18" selection-end-line="741" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.44142857">
+                  <caret line="1423" column="39" selection-start-line="1423" selection-start-column="39" selection-end-line="1423" selection-end-column="39" />
                   <folding>
                     <element signature="e#31919#36049#0" expanded="false" />
                     <marker date="1494426046697" expanded="true" signature="48102:48108" placeholder="..." />
@@ -81,8 +76,8 @@
           <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="4.1328573">
-                  <caret line="608" column="13" selection-start-line="608" selection-start-column="13" selection-end-line="608" selection-end-column="13" />
+                <state vertical-scroll-proportion="-2.6671429">
+                  <caret line="470" column="31" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="31" />
                   <folding>
                     <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
                   </folding>
@@ -350,16 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="516" column="28" selection-start-line="516" selection-start-column="28" selection-end-line="516" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="228.3077">
@@ -376,10 +361,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="516" column="28" selection-start-line="516" selection-start-column="28" selection-end-line="516" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.258572">
-          <caret line="741" column="18" selection-start-line="741" selection-start-column="18" selection-end-line="741" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.44142857">
+          <caret line="1423" column="39" selection-start-line="1423" selection-start-column="39" selection-end-line="1423" selection-end-column="39" />
           <folding>
             <element signature="e#31919#36049#0" expanded="false" />
             <marker date="1494426046697" expanded="true" signature="48102:48108" placeholder="..." />

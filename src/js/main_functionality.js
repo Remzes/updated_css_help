@@ -996,9 +996,10 @@ $(".code_prop").on("click", function (e) {
     var span = "#" + $(this).attr("id");
     var spanWidth = $(this).width() + "px";
     var value = $(this).html();
+    $(span).css("display", "none");
     switch (e.target.id) {
         case "css_color":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<input type='text' id='" + $(this).attr("id") + "input" + "'><i data-val='" + span + "' data-input='" + $(this).attr("id") + "input' class='fa fa-times' id='cross-close'></i>";
             $(span).parent("p").append(input);
             $(span).parent("p").find("input").spectrum({
@@ -1009,7 +1010,7 @@ $(".code_prop").on("click", function (e) {
             });
             break;
         case "css_background_color":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<input type='text' id='" + $(this).attr("id") + "input" + "'><i data-val='" + span + "' data-input='" + $(this).attr("id") + "input' class='fa fa-times' id='cross-close_" + $(this).attr('id') + "'></i>";
             $(span).parent("p").append(input);
             $(span).parent("p").find("input").spectrum({
@@ -1020,7 +1021,7 @@ $(".code_prop").on("click", function (e) {
             });
             break;
         case "css_text_align":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<select name='text_align' data-val='" + span + "' id='css_text_alignselect'>" +
                 "<option disabled selected value='no_select'></option>" +
                 "<option value='left'>left</option>" +
@@ -1030,7 +1031,7 @@ $(".code_prop").on("click", function (e) {
             $(span).parent("p").append(input);
             break;
         case "css_text_transform":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<select name='text_transform' data-val='" + span + "' id='css_text_transformselect'>" +
                 "<option disabled selected value='no_select'></option>" +
                 "<option value='none'>none</option>" +
@@ -1041,11 +1042,11 @@ $(".code_prop").on("click", function (e) {
             $(document).on("blur", "#code_output #css_text_transformselect", tabBlurEventOfTransform);
             break;
         case "css_text_decoration":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             $(".multiselect_form").css("display", "inline-block");
             break;
         case "css_font_style":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<select name='font_style' data-val='" + span + "' id='css_font_styleselect'>" +
                 "<option disabled selected value='no_select'></option>" +
                 "<option value='default'>default</option>" +
@@ -1056,7 +1057,7 @@ $(".code_prop").on("click", function (e) {
             $(document).on("blur", "#css_font_styleselect", tabBlueEventOfFontStyle);
             break;
         case "css_font_weight":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<select name='font_weight' data-val='" + span + "' id='css_font_weightselect'>" +
                 '<option disabled selected value="no_select"></option>' +
                 '<option value="100">Thin</option>' +
@@ -1074,7 +1075,7 @@ $(".code_prop").on("click", function (e) {
             $(document).on("blur", "#css_font_weightselect", tabBlurEventOfFontWeight);
             break;
         case "css_font_variant":
-            $(span).css("display", "none");
+            //$(span).css("display", "none");
             input = "<select name='font_variant' data-val='" + span + "' id='css_font_variantselect'>" +
                 '<option disabled selected value="no_select"></option>' +
                 '<option value="default">default</option>' +

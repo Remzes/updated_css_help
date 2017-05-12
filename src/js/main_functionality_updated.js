@@ -3,18 +3,22 @@
  */
 
 var elements_DOM_and_CSS_object = {
+    //Main elements which will be changed
+    changed_element: $(".change-here"),
+    //The property which contains CSS properties of the element, which will be changed,
+    //used inside the CSS editor, and saved inside CSS file
     css_prop_obj: {
-        width: "0px",
-        padding: "0px",
+        width: 0,
+        padding: 0,
         color: "rgb(0,0,0)",
         background_color: "transparent",
-        letter_spacing: "0px",
-        line_height: "0px",
+        letter_spacing: 0,
+        line_height: 0,
         text_align: "center",
         text_decoration: "",
         text_transform: "",
-        word_spacing: "0px",
-        font_size: "0px",
+        word_spacing: 0,
+        font_size: 0,
         font_style: "default",
         font_weight: 400,
         font_variant: "default",
@@ -45,9 +49,35 @@ var elements_DOM_and_CSS_object = {
         },
         opacity: 1
     },
-    css_DOM_elements_obj: {
-        changed_element: $("#change-here"),
-        colorpickers: {
+    //The property which contains the buttons to open reveals
+    //In the future the button to open HTML DOM elements reveal will be added
+    reveal_DOM_triggers: {
+        open_options: $("#open_options_reveal"),
+        open_input: $("#open_input_reveal")
+    },
+    //The property which contains triggers to open tabs with options and buttons to maintain input section
+    tabs_and_buttons_DOM_triggers: {
+        input_section: {
+            random_fulfill: $("#randomFulfill"),
+            reset_text: $("#reset_text"),
+            change_line_number: $("#change_line_number")
+        },
+        options_section: {
+            tabs_DOM_triggers: {
+                general_style: $("#gen_style"),
+                text_format: $("#t_form"),
+                font_format: $("#f_form"),
+                box_shadow: $("#b_s"),
+                text_shadow: $("#t_s"),
+                border: $("#bord"),
+                opacity: $("#opacity")
+            }
+        }
+    },
+    //The property which contains triggers to change CSS elements of the text. It contains main options triggers
+    //and also the triggers to change CSS property inside CSS editor
+    triggers_to_change_CSS_properties_DOM_elements: {
+        color_pickers: {
             main: {
                 font_color: {
                     change: $("#customColor"),
@@ -124,14 +154,6 @@ var elements_DOM_and_CSS_object = {
                     mode: "On Blur"
                 }
             },
-            //color_reset: {
-            //    main: $("#resetColor"),
-            //    mode: $("#cross_close_css_color")
-            //},
-            //background_color_reset: {
-            //    main: $("#resetBgColor"),
-            //    mode: $("#cross_close_css_background_color")
-            //},
             letter_spacing: {
                 span: $("#letSpac"),
                 change: {
@@ -533,73 +555,75 @@ var elements_DOM_and_CSS_object = {
                 }
             },
             border: {
-                all_border: {
-                    p: $("#border_paragraph"),
-                    spans: {
-                        size: $("border_size_span"),
-                        type: $("#border_type_span"),
-                        color: $("#border_color_span")
+                border: {
+                    all_border: {
+                        p: $("#border_paragraph"),
+                        spans: {
+                            size: $("border_size_span"),
+                            type: $("#border_type_span"),
+                            color: $("#border_color_span")
+                        }
+                    },
+                    left_border: {
+                        p: $("#border-left_paragraph"),
+                        spans: {
+                            size: $("#border-left_size_span"),
+                            type: $("#border-left_type_span"),
+                            color: $("#border-left_color_span")
+                        }
+                    },
+                    right_border: {
+                        p: $("#border-right_paragraph"),
+                        spans: {
+                            size: $("#border-right_size_span"),
+                            type: $("#border-right_type_span"),
+                            color: $("#border-right_color_span")
+                        }
+                    },
+                    top_border: {
+                        p: $("#border-top_paragraph"),
+                        spans: {
+                            size: $("#border-top_size_span"),
+                            type: $("#border-top_type_span"),
+                            color: $("#border-top_color_span")
+                        }
+                    },
+                    bottom_border: {
+                        p: $("#border-bottom_paragraph"),
+                        spans: {
+                            size: $("#border-bottom_size_span"),
+                            type: $("#border-bottom_type_span"),
+                            color: $("#border-bottom_color_span")
+                        }
                     }
                 },
-                left_border: {
-                    p: $("#border-left_paragraph"),
-                    spans: {
-                        size: $("#border-left_size_span"),
-                        type: $("#border-left_type_span"),
-                        color: $("#border-left_color_span")
-                    }
-                },
-                right_border: {
-                    p: $("#border-right_paragraph"),
-                    spans: {
-                        size: $("#border-right_size_span"),
-                        type: $("#border-right_type_span"),
-                        color: $("#border-right_color_span")
-                    }
-                },
-                top_border: {
-                    p: $("#border-top_paragraph"),
-                    spans: {
-                        size: $("#border-top_size_span"),
-                        type: $("#border-top_type_span"),
-                        color: $("#border-top_color_span")
-                    }
-                },
-                bottom_border: {
-                    p: $("#border-bottom_paragraph"),
-                    spans: {
-                        size: $("#border-bottom_size_span"),
-                        type: $("#border-bottom_type_span"),
-                        color: $("#border-bottom_color_span")
-                    }
-                }
-            },
-            border_radius: {
-                no_prefix: {
-                    p: $("#border-radius-paragraph"),
-                    spans: {
-                        left: $("#left-radius"),
-                        right: $("#right-radius"),
-                        top: $("#top-radius"),
-                        bottom: $("#bottom-radius")
-                    }
-                },
-                moz: {
-                    p: $("#webkit-border_radius_paragraph"),
-                    spans: {
-                        left: $("#webkit-left-radius"),
-                        right: $("#webkit-right-radius"),
-                        top: $("#webkit-top-radius"),
-                        bottom: $("#webkit-bottom-radius")
-                    }
-                },
-                webkit: {
-                    p: $("#moz-border_radius_paragraph"),
-                    spans: {
-                        left: $("#moz-left-radius"),
-                        right: $("#moz-right-radius"),
-                        top: $("#moz-top-radius"),
-                        bottom: $("#moz-bottom-radius")
+                border_radius: {
+                    no_prefix: {
+                        p: $("#border-radius-paragraph"),
+                        spans: {
+                            left: $("#left-radius"),
+                            right: $("#right-radius"),
+                            top: $("#top-radius"),
+                            bottom: $("#bottom-radius")
+                        }
+                    },
+                    moz: {
+                        p: $("#webkit-border_radius_paragraph"),
+                        spans: {
+                            left: $("#webkit-left-radius"),
+                            right: $("#webkit-right-radius"),
+                            top: $("#webkit-top-radius"),
+                            bottom: $("#webkit-bottom-radius")
+                        }
+                    },
+                    webkit: {
+                        p: $("#moz-border_radius_paragraph"),
+                        spans: {
+                            left: $("#moz-left-radius"),
+                            right: $("#moz-right-radius"),
+                            top: $("#moz-top-radius"),
+                            bottom: $("#moz-bottom-radius")
+                        }
                     }
                 }
             },

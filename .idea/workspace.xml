@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109e847b-2f7c-4be0-9799-44ae8f152906" name="Default" comment="" />
+    <list default="true" id="109e847b-2f7c-4be0-9799-44ae8f152906" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main_functionality_updated.js" afterPath="$PROJECT_DIR$/src/js/main_functionality_updated.js" />
+    </list>
     <ignored path="CssHelp_Updated_17th Apr 2017.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +23,63 @@
     <favorites_list name="CssHelp_Updated_17th Apr 2017" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5747782">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="516" column="28" selection-start-line="516" selection-start-column="28" selection-end-line="516" selection-end-column="28" />
+                <state vertical-scroll-proportion="0.19428572">
+                  <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
                   <folding>
-                    <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border_radius#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#reveal_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#tabs_and_buttons_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border_color#0;n#!!block;n#main#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#background_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#box_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#general_style#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#font_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#border#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#opacity#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_functionality.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main_functionality.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44142857">
-                  <caret line="1423" column="39" selection-start-line="1423" selection-start-column="39" selection-end-line="1423" selection-end-column="39" />
+                <state vertical-scroll-proportion="-7.8965516">
+                  <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
                   <folding>
                     <element signature="e#31919#36049#0" expanded="false" />
                     <marker date="1494426046697" expanded="true" signature="48102:48108" placeholder="..." />
@@ -51,11 +91,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="228.3077">
-                  <caret line="247" column="40" selection-start-line="247" selection-start-column="40" selection-end-line="247" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.63255817">
+                  <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
                   <folding>
                     <element signature="n#style#0;n#p#7;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#8;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,23 +107,25 @@
                     <element signature="n#style#0;n#p#20;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#23;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#25;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main_functionality_updated.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.6671429">
-                  <caret line="470" column="31" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="630" column="31" selection-start-line="630" selection-start-column="31" selection-end-line="630" selection-end-column="31" />
                   <folding>
-                    <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -110,6 +156,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-300" />
+    <option name="y" value="121" />
     <option name="width" value="1566" />
     <option name="height" value="860" />
   </component>
@@ -208,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1566" height="860" extended-state="0" />
+    <frame x="-300" y="121" width="1566" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18651833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -243,7 +291,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -253,7 +301,44 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="565" column="21" selection-start-line="565" selection-start-column="21" selection-end-line="565" selection-end-column="21" />
           <folding>
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#reveal_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#tabs_and_buttons_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#main#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#background_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#general_style#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -283,7 +368,13 @@
             <element signature="n#style#0;n#p#20;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#23;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#25;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -293,7 +384,44 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="565" column="21" selection-start-line="565" selection-start-column="21" selection-end-line="565" selection-end-column="21" />
           <folding>
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#reveal_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#tabs_and_buttons_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#main#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#background_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#general_style#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -317,7 +445,44 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="566" column="18" selection-start-line="566" selection-start-column="18" selection-end-line="566" selection-end-column="18" />
           <folding>
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#reveal_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#tabs_and_buttons_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#main#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#background_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#general_style#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -333,7 +498,13 @@
             <element signature="n#style#0;n#p#20;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#23;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#25;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -345,10 +516,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8965516">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+          <folding>
+            <element signature="e#31919#36049#0" expanded="false" />
+            <marker date="1494426046697" expanded="true" signature="48102:48108" placeholder="..." />
+            <marker date="1494426046697" expanded="true" signature="48585:48591" placeholder="..." />
+            <marker date="1494426046697" expanded="true" signature="49076:49082" placeholder="..." />
+            <marker date="1494426046697" expanded="true" signature="49418:49424" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="228.3077">
-          <caret line="247" column="40" selection-start-line="247" selection-start-column="40" selection-end-line="247" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.63255817">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#p#7;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#8;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -356,31 +541,60 @@
             <element signature="n#style#0;n#p#20;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#23;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#25;n#section#0;n#section#1;n#section#0;n#section#1;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main_functionality_updated.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="516" column="28" selection-start-line="516" selection-start-column="28" selection-end-line="516" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.19428572">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
-            <element signature="n#!!block;n#triggers#0;n#!!block;n#css_DOM_elements_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main_functionality.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44142857">
-          <caret line="1423" column="39" selection-start-line="1423" selection-start-column="39" selection-end-line="1423" selection-end-column="39" />
-          <folding>
-            <element signature="e#31919#36049#0" expanded="false" />
-            <marker date="1494426046697" expanded="true" signature="48102:48108" placeholder="..." />
-            <marker date="1494426046697" expanded="true" signature="48585:48591" placeholder="..." />
-            <marker date="1494426046697" expanded="true" signature="49076:49082" placeholder="..." />
-            <marker date="1494426046697" expanded="true" signature="49418:49424" placeholder="..." />
+            <element signature="n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_prop_obj#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#reveal_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#tabs_and_buttons_DOM_triggers#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#main#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#background_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_color#0;n#!!block;n#mode#0;n#!!block;n#color_pickers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#width#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#padding#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#letter_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#line_height#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_alignment#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_decoration#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_transform#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#word_spacing#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_size#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_style#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_weight#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_variant#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border_radius#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#triggers#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#general_style#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#font_format#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#box_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#text_shadow#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#border#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#opacity#0;n#!!block;n#css_editable_mode__spans_and_paragraphs#0;n#!!block;n#triggers_to_change_CSS_properties_DOM_elements#0;n#!!block;n#elements_DOM_and_CSS_object#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

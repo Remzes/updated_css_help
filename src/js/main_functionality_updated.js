@@ -3,8 +3,10 @@
  */
 
 var elements_DOM_and_CSS_object = {
-    //Main elements which will be changed
-    changed_element: $(".change-here"),
+    //Main input DOM element to type text to change
+    input_text_changing_element: $(".text_to_change"),
+    //Main span DOM element with text to change
+    span_changed_element: $("#change-here"),
     //The property which contains CSS properties of the element, which will be changed,
     //used inside the CSS editor, and saved inside CSS file
     css_prop_obj: {
